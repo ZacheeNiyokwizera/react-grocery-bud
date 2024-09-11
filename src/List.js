@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaEdit, FaTrash } from 'react-icons/fa';
+
+//  Displaying the list of groceries
+
 const List = ({ items, removeItem, editItem }) => {
   return (
     <div className='grocery-list'>
